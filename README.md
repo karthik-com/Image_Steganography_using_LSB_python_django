@@ -16,7 +16,7 @@ A web-based **Image Steganography** project built using **Django** that allows u
 
 ### **Clone the Repository**
 
-git clone https://github.com/yourusername/Image_Steganography_using_LSB_python_django.git
+git clone https://github.com/karthik-com/Image_Steganography_using_LSB_python_django.git
 
 cd Image_Steganography_using_LSB_python_django
 
