@@ -17,7 +17,7 @@ A web-based **Image Steganography** project built using **Django** that allows u
 git clone https://github.com/yourusername/image-steganography-django.git
 cd image-steganography-django
 
-### **Database connection**
+**Database connection**
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
