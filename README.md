@@ -16,3 +16,16 @@ A web-based **Image Steganography** project built using **Django** that allows u
 ```bash
 git clone https://github.com/yourusername/image-steganography-django.git
 cd image-steganography-django
+
+### **Database connection**
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'your_database_name',
+        'USER': 'your_username',
+        'PASSWORD': 'your_password',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+
