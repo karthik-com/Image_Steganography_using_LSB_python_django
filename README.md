@@ -14,10 +14,10 @@ A web-based **Image Steganography** project built using **Django** that allows u
 
 ### **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/image-steganography-django.git
-cd image-steganography-django
+git clone https://github.com/yourusername/Image_Steganography_using_LSB_python_django.git
+cd Image_Steganography_using_LSB_python_django
 
-**Database connection**
+### **Database connection**
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
