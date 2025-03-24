@@ -11,16 +11,24 @@ A web-based **Image Steganography** project built using **Django** that allows u
 - **Security Features** - Limit file types & size
 
 ### **Database connection**
-```bash
 DATABASES = {
+
     'default': {
+    
         'ENGINE': 'django.db.backends.mysql',
+        
         'NAME': 'your_database_name',
+        
         'USER': 'your_username',
+        
         'PASSWORD': 'your_password',
+        
         'HOST': 'localhost',
+        
         'PORT': '3306',
+        
     }
+    
 }
 
 python manage.py makemigrations
