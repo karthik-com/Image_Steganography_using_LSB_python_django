@@ -20,7 +20,7 @@ git clone https://github.com/yourusername/Image_Steganography_using_LSB_python_d
 cd Image_Steganography_using_LSB_python_django
 
 
-### **Database connection**
+## **Database connection**
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
