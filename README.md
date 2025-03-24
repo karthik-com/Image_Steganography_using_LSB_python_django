@@ -22,6 +22,7 @@ cd Image_Steganography_using_LSB_python_django
 
 
 ## **Database connection**
+```bash
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
