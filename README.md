@@ -1,17 +1,18 @@
-# Image_Steganography_using_LSB_python_django
+# 🖼️ Image Steganography using Django
 
-1. Database connection:-
-   
-     Create a database nameing "image_steganography_db" or any meaning full name.
-   
-     If database name is other than "image_steganography_db", then make sure that you have modified the database name accordingly in settings.py file.
-   
-3. Migrating created models:-
+A web-based **Image Steganography** project built using **Django** that allows users to **hide secret messages inside images** and later extract them.
 
-     python manage.py makemigrations
-   
-     python manage.py migrate
-   
-4. Start the django server:-
+## ✨ Features
+- 🔑 **User Authentication** (Register, Login, Logout)
+- 🖼️ **Encode Message** - Hide text inside an image
+- 🔍 **Decode Message** - Extract hidden text from an image
+- 📂 **File Management** - Save encoded images securely
+- 🎨 **Modern UI** - Styled with **Bootstrap** and a sleek design
+- 🔐 **Security Features** - Limit file types & size
 
-     python manage.py runserver
+## 🚀 Installation
+
+### 1️⃣ **Clone the Repository**
+```bash
+git clone https://github.com/yourusername/image-steganography-django.git
+cd image-steganography-django
