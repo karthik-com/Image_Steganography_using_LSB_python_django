@@ -10,15 +10,6 @@ A web-based **Image Steganography** project built using **Django** that allows u
 - **Modern UI** - Styled with **Bootstrap** and a sleek design
 - **Security Features** - Limit file types & size
 
-## Installation
-
-### **Clone the Repository**
-```bash
-git clone https://github.com/yourusername/Image_Steganography_using_LSB_python_django.git
-cd Image_Steganography_using_LSB_python_django
-
-
-
 ### **Database connection**
 DATABASES = {
     'default': {
@@ -35,4 +26,15 @@ python manage.py makemigrations
 python manage.py migrate
 
 python manage.py runserver
+
+## Installation
+
+### **Clone the Repository**
+```bash
+git clone https://github.com/yourusername/Image_Steganography_using_LSB_python_django.git
+cd Image_Steganography_using_LSB_python_django
+
+
+
+
 
